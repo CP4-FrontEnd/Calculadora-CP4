@@ -13,3 +13,28 @@ body {
   background-color: #f0f0f0;
 }
 
+.calculator {
+  width: 320px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: right;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.display .input {
+  font-size: 1.5em;
+  color: #aaa;
+  min-height: 1.5em;
+}
+
